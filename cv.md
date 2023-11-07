@@ -27,8 +27,7 @@ let list = [2, 45, 3, 28, 23, 6],
 new_list = [];
 
 for (let i = list.length-1; i>=0; i--) {
-    new_list.push(list.pop())
-                
+    new_list.push(list.pop())        
             }
 console.log(new_list);
 ```
@@ -36,7 +35,7 @@ console.log(new_list);
 <h2 style="color: #DAA520;">Courses:</h2>
 
 * [BeOnMax](https://beonmax.com)
-* [GeekBrains](https://gb.ru/users/3400280?tab=skills#skills)
+* [Udemy](https://udemy.com)
 
 <h2 style="color: #DAA520;">Languages:</h2>
 
