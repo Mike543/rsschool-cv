@@ -23,6 +23,7 @@ My strengths are responsibility, a desire to learn new things, good communicatio
 <h2 style="color: #DAA520;">Code Example</h2>
 
 ```javascript
+
 let list = [2, 45, 3, 28, 23, 6],
 new_list = [];
 
