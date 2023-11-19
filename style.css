@@ -20,7 +20,7 @@ body {
     padding-left: 30px;
 }
 
-nav {
+nav ul{
     padding: 13px 70px;
     margin: 0;
     display: flex;
