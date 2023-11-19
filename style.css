@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #808080;
+    color: black;
+    position: relative;
+}
+
+.main_img {
+    display: block;
+}
+
+.main_img img {
+    height: 400px;
+    padding-left: 30px;
+}
+
+nav ul{
+    padding: 13px 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none
+}
+nav a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #e65100;
+    text-decoration-line: none;
+}
+
+.content {
+    /* min-width: 1300px; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    text-align: center;
+    color: #e65100;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    text-align: center;
+    color: #e65100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content img {
+    margin-left: 250px;
+    margin-bottom: 50px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.box_text {
+    margin: 0 auto;
+    width: 670px;
+    background-color: #909090;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    text-align: center;   
+}
+
+.code {
+    text-align: left;
+}
+
+.about{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box_text ul {
+    list-style-type: none;
+}
+
+.box_text p {
+    color: #242424;
+    font-size: 14px;
+    text-align: left;
+}
+
+.box_text a {
+    color: #242424;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content .box_text a:hover {
+    color: gold;
+}
+
+.content .box_text .links a:hover {
+    background-color: none;
+    color: #e65100;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #434445;
+    min-width: 1300px;
+    width: 100%;
+    float: left;
+    height: 70px;
+    color: gold;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 70px;
+}
+
+.footer .wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+footer a {
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: none;
+    color: gold;
+}
+
+footer .links a:hover {
+    background-color: none;
+    color: gold;
+}
+
+footer img {
+    padding-top: 20px;
+    width: 75px;
+    height: 28px;
+}
