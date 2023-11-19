@@ -13,14 +13,10 @@ body {
 
 .main_img {
     display: block;
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    
 }
 
 .main_img img {
     height: 400px;
-    /* width: 400px; */
     padding-left: 30px;
 }
 
@@ -100,7 +96,6 @@ nav a {
     color: #242424;
     text-align: center;
     text-decoration: none;
-
 }
 
 .content .box_text a:hover {
